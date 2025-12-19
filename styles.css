@@ -164,3 +164,37 @@
     align-self: last baseline;
     font-weight: 900;
 }
+.section-four {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+.call-to-action {
+    display: flex;
+    background-color: #3882f6;
+    border: 2px solid;
+    width: 800px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.description-text{
+    display: flex;
+    flex-direction: column;
+    /* width: 300px; */
+    gap: 5px;
+}
+.btn.btn-call {
+    border: 2px solid
+}
+.main-text {
+    color: white;
+    font-size:24px ;
+    font-weight: bold;
+}
+.secondary-text {
+    color: white;
+}
