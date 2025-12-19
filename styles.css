@@ -9,7 +9,7 @@
     box-sizing: border-box;
     background-color: #1F2937;
     padding: 10px;
-    padding-bottom: 100px;
+    padding-bottom: (100)px;
 }
 .main-section {
     display: flex;
@@ -19,12 +19,14 @@
     display: flex;
     flex-direction: column;
     width: 1000px;
-    height: 350px; 
+    height: (5)00px; 
     justify-content: space-between;
     color: #e5e7eb;
     font-size: 18px;
+}   
+.photo {
+    font-size: 14px;
 }
-
 .content .header-logo {
     margin-right: auto;
     font-size: 24px;
@@ -33,13 +35,14 @@
 }
 .top-menu {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
 .Miaw {
     width: 200px;
     margin-right: auto;
+    margin-top: -20px;
 }
 .blank-section {
     height: 100px;
@@ -78,9 +81,18 @@
     
 }
 .img--box {
-    background-color: grey;
-    width: 400PX;
+    /* background-color: grey; */
+    /* width: 20%; */
     text-align: center; 
+}
+.img--box img  {
+    width: 400px;
+    height: auto;
+}
+.small-text-pres {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 400px;
 }
 .section-two {
     display:flex;
@@ -180,7 +192,7 @@
     background-color: #3882f6;
     border: 2px solid;
     width: 800px;
-    height: 100px;
+    height: ();
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
@@ -188,7 +200,7 @@
 .description-text{
     display: flex;
     flex-direction: column;
-    /* width: 300px; */
+    justify-content: flex-end;
     gap: 5px;
 }
 .btn.btn-call {
@@ -198,10 +210,12 @@
     color: white;
     font-size:24px ;
     font-weight: bold;
+    margin-top: 10px;
 }
 .secondary-text {
     color: white;
 }
+
 .footer {
     display: flex;
     justify-content: center;
